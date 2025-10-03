@@ -37,7 +37,7 @@ def fetch_author_by_chunk(
                     username=account["username"],
                     acct=account["acct"],
                     status_id=status["id"],
-                    instance=instance
+                    instance=instance,
                 )
                 authors_chunk.append(author.model_dump())
                 current_results += 1
@@ -51,7 +51,9 @@ def fetch_author_by_chunk(
 
 
 def get_author_parallel(
-    num_threads: int = 5, results_per_thread: int = 1000, instance: str = 'mastodon.social'
+    num_threads: int = 5,
+    results_per_thread: int = 1000,
+    instance: str = "mastodon.social",
 ) -> Iterable[Author]:
     """
     Manage multiple parallel threads to get authors by chunks
@@ -81,16 +83,20 @@ def get_author_parallel(
 
     return all_authors
 
-def collect_authors(instances: list[str], n_threads: int, results_by_thread: int) -> pl.LazyFrame:
+
+def collect_authors(
+    instances: list[str], n_threads: int, results_by_thread: int
+) -> pl.LazyFrame:
     logger.info(
         f"Starting parallel execution using {n_threads} threads (each one will look for {results_by_thread} results)..."
     )
-    total = 0
     # orchestrator function gets the full list of authors
     authors = iter([])
     for instance in instances:
         authors_by_instance = get_author_parallel(
-            num_threads=n_threads, results_per_thread=results_by_thread, instance=instance
+            num_threads=n_threads,
+            results_per_thread=results_by_thread,
+            instance=instance,
         )
         if authors_by_instance:
             authors = it.chain(authors, authors_by_instance)
@@ -100,6 +106,7 @@ def collect_authors(instances: list[str], n_threads: int, results_by_thread: int
 
     author_df = pl.LazyFrame(authors)
     return author_df
+
 
 def main() -> None:
     NUM_THREADS = 5
@@ -123,11 +130,12 @@ def main() -> None:
         "piaille.fr",
         "kolektiva.social",
         "mastodon.art",
-        "mamot.fr"
+        "mamot.fr",
     ]
     authors_df = collect_authors(instances, NUM_THREADS, RESULTS_BY_THREAD).collect()
     authors_df.write_csv(f"authors_{now.strftime('%d%m%Y_%H%M%S')}.csv")
     logger.info("Total number of authors: %d" % len(authors_df))
+
 
 if __name__ == "__main__":
     main()
