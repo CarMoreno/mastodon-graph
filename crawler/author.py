@@ -1,15 +1,14 @@
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime
 from threading import current_thread
 import polars as pl
 import itertools as it
 from collections.abc import Iterable
 from mastodon import MastodonNotFoundError
 
-from entities import User, Author
-from config import mastodon
+from config.mastodon import mastodon
+from models.entities import User, Author
 from mastodon.errors import MastodonAPIError
-from logger import logger
+from utils.logger import logger
 
 
 def fetch_author_by_chunk(
@@ -48,6 +47,7 @@ def fetch_author_by_chunk(
         return thread_id, []
     except MastodonAPIError as e:
         logger.error(f"Mastodon API error for {instance}: {e.args}")
+        return thread_id, []
 
 
 def get_author_parallel(
@@ -106,36 +106,3 @@ def collect_authors(
 
     author_df = pl.LazyFrame(authors)
     return author_df
-
-
-def main() -> None:
-    NUM_THREADS = 5
-    RESULTS_BY_THREAD = 1000
-    now = datetime.now()
-    instances = [
-        "mastodon.social",
-        "gts.turtle.garden",
-        "mstdn.social",
-        "mastodon.world",
-        "mas.to",
-        "techhub.social",
-        "universeodon.com",
-        "mastodonapp.uk",
-        "c.im",
-        "loforo.com",
-        "fosstodon.org",
-        "mstdn.party",
-        "aethy.com",
-        "mastodon.nl",
-        "piaille.fr",
-        "kolektiva.social",
-        "mastodon.art",
-        "mamot.fr",
-    ]
-    authors_df = collect_authors(instances, NUM_THREADS, RESULTS_BY_THREAD).collect()
-    authors_df.write_csv(f"authors_{now.strftime('%d%m%Y_%H%M%S')}.csv")
-    logger.info("Total number of authors: %d" % len(authors_df))
-
-
-if __name__ == "__main__":
-    main()
