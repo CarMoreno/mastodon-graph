@@ -1,0 +1,11 @@
+[project]
+name = "mastodon-graph"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "mastodon-py>=2.1.4",
+    "polars>=1.33.1",
+    "pre-commit>=4.3.0",
+    "pydantic>=2.11.9",
+]
