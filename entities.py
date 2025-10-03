@@ -5,6 +5,7 @@ class User(BaseModel):
     id: str
     username: str
     acct: str
+    instance: str
 
     @computed_field
     @property
