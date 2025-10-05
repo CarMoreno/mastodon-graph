@@ -34,10 +34,18 @@ def main() -> None:
 
 
 if __name__ == "__main__":
+    # import polars as pl
     # authors = pl.concat([
     #     pl.read_csv("data/authors_03102025_173414.csv"),
     #     pl.read_csv("data/authors_03102025_182635.csv"),
-    #     pl.read_csv("data/authors_03102025_194348.csv")
+    #     pl.read_csv("data/authors_03102025_194348.csv"),
+    #     pl.read_csv("data/authors_03102025_214918.csv"),
+    #     pl.read_csv("data/authors_04102025_085923.csv"),
+    #     pl.read_csv("data/authors_04102025_101019.csv"),
+    #     pl.read_csv("data/authors_04102025_111023.csv"),
+    #     pl.read_csv("data/authors_04102025_130120.csv"),
+    #     pl.read_csv("data/authors_05102025_144628.csv"),
+    #     pl.read_csv("data/authors_05102025_162633.csv")
     # ]).unique(maintain_order=True)
     # print(len(authors))
     # authors.write_csv("data/authors.csv")
