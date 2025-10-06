@@ -6,14 +6,14 @@ from collections.abc import Iterable
 from mastodon import MastodonNotFoundError
 
 from config.mastodon import mastodon
-from models.entities import User, Author
+from models.entities import Author
 from mastodon.errors import MastodonAPIError
 from utils.logger import logger
 
 
 def fetch_author_by_chunk(
     start_offset: int, max_num_to_fetch: int, instance: str
-) -> tuple[int, list[User]]:
+) -> tuple[int, list[Author]]:
     thread_id = current_thread().ident
     try:
         limit = 40

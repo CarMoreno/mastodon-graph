@@ -19,6 +19,10 @@ class Author(User):
     status_id: str
 
 
+class Reblogger(User):
+    author_id: str
+
+
 class RebloggedBy(BaseModel):
     author_id: str
     reblogged_count: int = Field(ge=0, default=1)
