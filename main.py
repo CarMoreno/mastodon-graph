@@ -29,24 +29,14 @@ def main() -> None:
         "mamot.fr",
     ]
     authors_df = collect_authors(instances, NUM_THREADS, RESULTS_BY_THREAD).collect()
-    authors_df.write_csv(f"authors_{now.strftime('%d%m%Y_%H%M%S')}.csv")
+    authors_df.write_csv(f"data/authors_{now.strftime('%d%m%Y_%H%M%S')}.csv")
     logger.info("Total number of authors: %d" % len(authors_df))
 
 
 if __name__ == "__main__":
-    # import polars as pl
-    # authors = pl.concat([
-    #     pl.read_csv("data/authors_03102025_173414.csv"),
-    #     pl.read_csv("data/authors_03102025_182635.csv"),
-    #     pl.read_csv("data/authors_03102025_194348.csv"),
-    #     pl.read_csv("data/authors_03102025_214918.csv"),
-    #     pl.read_csv("data/authors_04102025_085923.csv"),
-    #     pl.read_csv("data/authors_04102025_101019.csv"),
-    #     pl.read_csv("data/authors_04102025_111023.csv"),
-    #     pl.read_csv("data/authors_04102025_130120.csv"),
-    #     pl.read_csv("data/authors_05102025_144628.csv"),
-    #     pl.read_csv("data/authors_05102025_162633.csv")
-    # ]).unique(maintain_order=True)
-    # print(len(authors))
-    # authors.write_csv("data/authors.csv")
-    main()
+    import polars as pl
+
+    authors = pl.concat([pl.read_csv("data/authors_*.csv")]).unique(maintain_order=True)
+    print(len(authors))
+    authors.write_csv("data/authors.csv")
+    # main()
