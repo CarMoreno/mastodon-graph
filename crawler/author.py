@@ -43,7 +43,7 @@ def fetch_author_by_chunk(
             offset += limit
         return thread_id, authors_chunk
     except MastodonNotFoundError as e:
-        logger.info(f"Endpoint for {instance}, does not exist: {e.args}")
+        logger.error(f"Endpoint for {instance}, does not exist: {e.args}")
         return thread_id, []
     except MastodonAPIError as e:
         logger.error(f"Mastodon API error for {instance}: {e.args}")
