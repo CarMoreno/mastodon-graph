@@ -121,7 +121,7 @@ def merge_temp_files() -> None | pl.DataFrame:
         return None
 
 
-if __name__ == "__main__":
+def main():
     # 1. Create the temporal folder just in case it does not exist
     os.makedirs(TEMP_OUTPUT_DIR, exist_ok=True)
 
@@ -143,7 +143,7 @@ if __name__ == "__main__":
 
     author_info_pending = author_info_full.filter(
         ~pl.col("toot_id").is_in(completed_toot_ids)
-    ).limit(100)
+    )
 
     logger.info(
         f"Total de tareas a procesar: {len(author_info_full)}. Tareas pendientes: {len(author_info_pending)}"
@@ -165,3 +165,7 @@ if __name__ == "__main__":
 
     # 5. Join all the .parquets files in one CSV final file.
     merge_temp_files()
+
+
+if __name__ == "__main__":
+    main()

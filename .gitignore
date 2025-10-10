@@ -208,3 +208,5 @@ __marimo__/
 
 .idea
 .DS_Store
+
+neo4j_db/
