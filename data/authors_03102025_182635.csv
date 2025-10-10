@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 1020019,ExtinctionR,ExtinctionR@social.rebellion.global,mastodon.social,115308742566302962,social.rebellion.global
 112557684348803946,cathrobots,cathrobots@assemblag.es,mastodon.social,115309833411361241,assemblag.es
 112778815578214971,georgrestle.bsky.social,georgrestle.bsky.social@bsky.brid.gy,mastodon.social,115310355216723262,bsky.brid.gy

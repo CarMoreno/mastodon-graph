@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 109749937688438929,ct_Magazin,ct_Magazin@social.heise.de,mastodon.social,115310844497030857,social.heise.de
 108194533502614478,paul_denton,paul_denton,mastodon.social,115310029729498628,mastodon.social
 109257239992250931,suessbisscharf,suessbisscharf,mastodon.social,115310634746082544,mastodon.social

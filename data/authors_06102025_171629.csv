@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 69862,eelv,eelv@mamot.fr,mastodon.social,115326840938493141,mamot.fr
 108225787327699547,marquito,marquito,mastodon.social,115327801948820329,mastodon.social
 108197206903840287,tazgetroete,tazgetroete,mastodon.social,115326320714258087,mastodon.social

@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 107231714966221387,shichibanme,shichibanme@wxw.moe,mastodon.social,115320320684038295,wxw.moe
 111736422505183359,FlippoFlip,FlippoFlip@norden.social,mastodon.social,115321200417303915,norden.social
 114626319194268593,patnat,patnat@social.tchncs.de,mastodon.social,115320576212210423,social.tchncs.de

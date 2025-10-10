@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 517434,film_girl,film_girl,mastodon.social,115313176565921574,mastodon.social
 109334374718728328,broadwaybabyto,broadwaybabyto@zeroes.ca,mastodon.social,115313737847438151,zeroes.ca
 11307,mcc,mcc,mastodon.social,115313209989016208,mastodon.social

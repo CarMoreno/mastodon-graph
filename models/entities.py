@@ -16,7 +16,7 @@ class User(BaseModel):
 
 
 class Author(User):
-    status_id: str
+    toot_id: str
 
 
 class Reblogger(User):

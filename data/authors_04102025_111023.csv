@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 109358330407453115,AlanSmithee,AlanSmithee@troet.cafe,mastodon.social,115314020961372366,troet.cafe
 113361552927896370,RNDAudience,RNDAudience@flipboard.com,mastodon.social,115313966608421813,flipboard.com
 114499375731030152,AnonymusIncognitus,AnonymusIncognitus,mastodon.social,115314166295621498,mastodon.social

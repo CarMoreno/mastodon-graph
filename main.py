@@ -36,7 +36,9 @@ def main() -> None:
 if __name__ == "__main__":
     import polars as pl
 
-    authors = pl.concat([pl.read_csv("data/authors_*.csv")]).unique(maintain_order=True)
+    authors = pl.concat(
+        [pl.read_csv("data/authors_03*.csv"), pl.read_csv("data/authors_04*.csv")]
+    ).unique(maintain_order=True)
     print(len(authors))
     authors.write_csv("data/authors.csv")
     # main()

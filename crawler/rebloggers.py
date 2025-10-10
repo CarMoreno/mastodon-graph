@@ -13,7 +13,7 @@ from utils.logger import logger
 
 def get_reblogger_parallel(
     author_info: pl.DataFrame,
-    num_threads: int = 7,
+    num_threads: int = 10,
 ) -> list[Reblogger]:
     with ThreadPoolExecutor(num_threads) as executor:
         futures = []
@@ -30,17 +30,18 @@ def get_reblogger_parallel(
 
 def get_rebloggers_by_chunks(author_info: tuple) -> tuple[int, list[Reblogger]]:
     thread_id = current_thread().ident
-    status_id, author_id, instance = author_info
-    log_prefix = f"[Reblogger | ID: {thread_id} | Status ID: {status_id}]"
+    toot_id, author_id, instance = author_info
+    mastodon.api_base_url = f"https://{instance}"
+    log_prefix = f"[Reblogger | ID: {thread_id} | Status ID: {toot_id}]"
     logger.info(f"{log_prefix} Getting rebloggers from the first page.")
     page = 1
     try:
-        current_page = mastodon.status_reblogged_by(status_id)
+        current_page = mastodon.status_reblogged_by(toot_id)
         logger.info(f"{log_prefix} There are {len(current_page)} rebloggers.")
         raw_rebloggers = list(current_page)
         while current_page:
             page += 1
-            time.sleep(3)
+            time.sleep(1)
             logger.info(f"{log_prefix} Searching for the next page: # {page}")
             next_page = mastodon.fetch_next(current_page)
             if next_page:
@@ -70,15 +71,23 @@ def get_rebloggers_by_chunks(author_info: tuple) -> tuple[int, list[Reblogger]]:
     except MastodonAPIError as e:
         logger.error(f"{log_prefix} Mastodon API error for {instance}: {e.args}")
         return thread_id, []
+    except Exception as e:
+        logger.error(f"{log_prefix} critical error: {e}")
+        return thread_id, []
 
 
 if __name__ == "__main__":
-    # author_info = [(115310498566920494, 565921, "mastodon.social")]  # status_id, author_id
-    author_info = pl.read_csv("../data/authors_03102025_173414.csv").select(
-        "status_id", pl.col("id").alias("author_id"), "instance"
-    )  # .limit(10)
+    # author_info = [(115310498566920494, 565921, "mastodon.social")]  # toot_id, author_id
+    author_info: pl.DataFrame = (
+        pl.read_csv("../data/authors.csv")
+        .select("toot_id", pl.col("id").alias("author_id"), "instance")
+        .sort(by="author_id")
+        .limit(10)
+    )
+    start = time.time()
     rebloggers = get_reblogger_parallel(author_info=author_info)
+    logger.info("Process finished in {:.2f} seconds.".format(time.time() - start))
     df_rebloggers = pl.DataFrame(rebloggers)
     df_rebloggers.write_csv("../data/rebloggers.csv")
-    logger.info(rebloggers)
+    logger.info(df_rebloggers)
     logger.info(len(rebloggers))

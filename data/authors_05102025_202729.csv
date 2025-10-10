@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 109377915467481445,gnitro,gnitro@urusai.social,mastodon.social,115321956488818535,urusai.social
 114441499117539387,KmacNessa,KmacNessa,mastodon.social,115319566047487940,mastodon.social
 108199374483370995,mem_somerville,mem_somerville,mastodon.social,115321793891690769,mastodon.social

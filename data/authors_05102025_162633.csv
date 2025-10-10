@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 109388703896053312,JensKessler,JensKessler@bildung.social,mastodon.social,115321532045021783,bildung.social
 1157138,Larchmutz,Larchmutz@mamot.fr,mastodon.social,115321699388033994,mamot.fr
 109242938066235229,Kraemer_HB,Kraemer_HB,mastodon.social,115320800879932156,mastodon.social

@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 109314764177719653,jkasek,jkasek@troet.cafe,mastodon.social,115314700924207370,troet.cafe
 111662147957236403,solunebrume,solunebrume,mastodon.social,115314929054917655,mastodon.social
 108276851915292569,spacelion,spacelion@allships.run,mastodon.social,115314450949683073,allships.run

@@ -35,7 +35,7 @@ def fetch_author_by_chunk(
                     id=account["id"],
                     username=account["username"],
                     acct=account["acct"],
-                    status_id=status["id"],
+                    toot_id=status["id"],
                     instance=instance,
                 )
                 authors_chunk.append(author.model_dump())

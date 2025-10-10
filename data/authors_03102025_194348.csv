@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 109293886459592536,django,django@fosstodon.org,mastodon.social,115310034418926213,fosstodon.org
 114064477945350552,HistoricalBiology,HistoricalBiology,mastodon.social,115309653008640084,mastodon.social
 109265277788769753,auscandoc,auscandoc@med-mastodon.com,mastodon.social,115310353082178335,med-mastodon.com

@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 109326004975919220,PrincessLavendel,PrincessLavendel@troet.cafe,mastodon.social,115325722975868627,troet.cafe
 113885105099146319,XR_Namur,XR_Namur@social.rebellion.global,mastodon.social,115325555739659783,social.rebellion.global
 109274069572974220,mondiaalnieuws,mondiaalnieuws@mastodon.online,mastodon.social,115325550092815991,mastodon.online

@@ -1,0 +1,251 @@
+2025-10-06 21:35:54,105 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115311121523345873] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:54,105 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310940283913219] Getting rebloggers from the first page.
+2025-10-06 21:35:54,105 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:54,169 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115310175709036394] Searching for the next page: # 2
+2025-10-06 21:35:54,323 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310940283913219] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:54,323 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310589351037665] Getting rebloggers from the first page.
+2025-10-06 21:35:54,323 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:54,472 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310589351037665] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:54,472 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310481555359977] Getting rebloggers from the first page.
+2025-10-06 21:35:54,472 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:54,537 - global_logger - INFO - [Reblogger | ID: 6195146752 | Status ID: 115309042835338088] Searching for the next page: # 6
+2025-10-06 21:35:54,917 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310481555359977] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:54,917 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310531023169148] Getting rebloggers from the first page.
+2025-10-06 21:35:54,929 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:55,005 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115310175709036394] Found next page. There are 37 rebloggers
+2025-10-06 21:35:55,114 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310531023169148] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:55,114 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115311006131291819] Getting rebloggers from the first page.
+2025-10-06 21:35:55,114 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:55,443 - global_logger - INFO - [Reblogger | ID: 6195146752 | Status ID: 115309042835338088] Found next page. There are 40 rebloggers
+2025-10-06 21:35:55,498 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115311006131291819] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:55,498 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115311076430901959] Getting rebloggers from the first page.
+2025-10-06 21:35:55,498 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:55,555 - global_logger - INFO - [Reblogger | ID: 6245625856 | Status ID: 115309298941805243] Searching for the next page: # 6
+2025-10-06 21:35:55,609 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115311076430901959] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:55,609 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310723353563148] Getting rebloggers from the first page.
+2025-10-06 21:35:55,610 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:55,825 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310723353563148] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:55,825 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310604482800000] Getting rebloggers from the first page.
+2025-10-06 21:35:55,826 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:55,936 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310604482800000] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:55,936 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310096404853215] Getting rebloggers from the first page.
+2025-10-06 21:35:55,937 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:56,060 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310096404853215] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,060 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310474775513556] Getting rebloggers from the first page.
+2025-10-06 21:35:56,060 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:56,172 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310474775513556] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,172 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310271983342545] Getting rebloggers from the first page.
+2025-10-06 21:35:56,172 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:56,251 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115309992345169335] Searching for the next page: # 3
+2025-10-06 21:35:56,251 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115309992345169335] All rebloggers were found.
+2025-10-06 21:35:56,253 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310137160752246] Getting rebloggers from the first page.
+2025-10-06 21:35:56,254 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:56,371 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310271983342545] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,371 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115311072244055599] Getting rebloggers from the first page.
+2025-10-06 21:35:56,372 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:56,507 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115311072244055599] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,507 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310066699589647] Getting rebloggers from the first page.
+2025-10-06 21:35:56,508 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:56,568 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310137160752246] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,571 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310256328579534] Getting rebloggers from the first page.
+2025-10-06 21:35:56,571 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:56,598 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310494630626866] Searching for the next page: # 3
+2025-10-06 21:35:56,599 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310494630626866] All rebloggers were found.
+2025-10-06 21:35:56,600 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310125962901812] Getting rebloggers from the first page.
+2025-10-06 21:35:56,601 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:56,658 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310066699589647] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,658 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115311064498440097] Getting rebloggers from the first page.
+2025-10-06 21:35:56,659 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:56,683 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310256328579534] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,684 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310826393304956] Getting rebloggers from the first page.
+2025-10-06 21:35:56,684 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:56,715 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310125962901812] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,715 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310725172991012] Getting rebloggers from the first page.
+2025-10-06 21:35:56,717 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:56,820 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310826393304956] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,820 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310566411625366] Getting rebloggers from the first page.
+2025-10-06 21:35:56,820 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:56,824 - global_logger - INFO - [Reblogger | ID: 6262452224 | Status ID: 115310619149865101] Searching for the next page: # 2
+2025-10-06 21:35:56,829 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310725172991012] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,829 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310744266628334] Getting rebloggers from the first page.
+2025-10-06 21:35:56,829 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:56,858 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115311064498440097] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,858 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310335640280920] Getting rebloggers from the first page.
+2025-10-06 21:35:56,859 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:56,958 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310566411625366] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:56,958 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115311064591422697] Getting rebloggers from the first page.
+2025-10-06 21:35:56,959 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:57,084 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310744266628334] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,085 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310371107586884] Getting rebloggers from the first page.
+2025-10-06 21:35:57,085 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:57,128 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115311064591422697] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,128 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310306631597203] Getting rebloggers from the first page.
+2025-10-06 21:35:57,136 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:57,167 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310335640280920] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,168 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310686732358358] Getting rebloggers from the first page.
+2025-10-06 21:35:57,168 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:57,358 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310306631597203] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,358 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310419335080378] Getting rebloggers from the first page.
+2025-10-06 21:35:57,364 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:57,389 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310686732358358] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,389 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310757372214382] Getting rebloggers from the first page.
+2025-10-06 21:35:57,395 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310371107586884] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,395 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310649340064278] Getting rebloggers from the first page.
+2025-10-06 21:35:57,419 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:57,419 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:57,582 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310649340064278] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,583 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115309854248280863] Getting rebloggers from the first page.
+2025-10-06 21:35:57,588 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:57,625 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310419335080378] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,625 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115309828952774153] Getting rebloggers from the first page.
+2025-10-06 21:35:57,637 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:57,694 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310757372214382] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,694 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310335023599136] Getting rebloggers from the first page.
+2025-10-06 21:35:57,701 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:57,773 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115309854248280863] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,773 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310545156881558] Getting rebloggers from the first page.
+2025-10-06 21:35:57,780 - global_logger - INFO - [Reblogger | ID: 6262452224 | Status ID: 115310619149865101] Found next page. There are 24 rebloggers
+2025-10-06 21:35:57,780 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:57,832 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115309828952774153] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,832 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310611063953647] Getting rebloggers from the first page.
+2025-10-06 21:35:57,838 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:57,863 - global_logger - INFO - [Reblogger | ID: 6245625856 | Status ID: 115309298941805243] Found next page. There are 35 rebloggers
+2025-10-06 21:35:57,890 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310335023599136] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,890 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115309183136704760] Getting rebloggers from the first page.
+2025-10-06 21:35:57,890 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:57,991 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310545156881558] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:57,991 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310770518553218] Getting rebloggers from the first page.
+2025-10-06 21:35:57,992 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:58,009 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115310175709036394] Searching for the next page: # 3
+2025-10-06 21:35:58,009 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115310175709036394] All rebloggers were found.
+2025-10-06 21:35:58,010 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115311037621622997] Getting rebloggers from the first page.
+2025-10-06 21:35:58,011 - global_logger - INFO - Thread ID: 6161494016 Finished
+2025-10-06 21:35:58,087 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115309183136704760] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,087 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115311014326303594] Getting rebloggers from the first page.
+2025-10-06 21:35:58,088 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:58,139 - global_logger - ERROR - [Reblogger | ID: 6161494016 | Status ID: 115311037621622997] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,139 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115310605573850256] Getting rebloggers from the first page.
+2025-10-06 21:35:58,139 - global_logger - INFO - Thread ID: 6161494016 Finished
+2025-10-06 21:35:58,168 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310770518553218] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,169 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310807515653253] Getting rebloggers from the first page.
+2025-10-06 21:35:58,169 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:58,172 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310611063953647] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,172 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310893739822394] Getting rebloggers from the first page.
+2025-10-06 21:35:58,172 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:58,307 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115311014326303594] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,307 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115309726613734372] Getting rebloggers from the first page.
+2025-10-06 21:35:58,307 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:58,308 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310807515653253] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,308 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310519278883482] Getting rebloggers from the first page.
+2025-10-06 21:35:58,309 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310893739822394] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,309 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:58,309 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310909988277155] Getting rebloggers from the first page.
+2025-10-06 21:35:58,309 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:58,378 - global_logger - ERROR - [Reblogger | ID: 6161494016 | Status ID: 115310605573850256] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,378 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115311030999367284] Getting rebloggers from the first page.
+2025-10-06 21:35:58,379 - global_logger - INFO - Thread ID: 6161494016 Finished
+2025-10-06 21:35:58,449 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310519278883482] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,450 - global_logger - INFO - [Reblogger | ID: 6195146752 | Status ID: 115309042835338088] Searching for the next page: # 7
+2025-10-06 21:35:58,450 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310727863923663] Getting rebloggers from the first page.
+2025-10-06 21:35:58,451 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:58,455 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310909988277155] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,455 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115311143023993996] Getting rebloggers from the first page.
+2025-10-06 21:35:58,455 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:58,515 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115309726613734372] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,515 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310228137447367] Getting rebloggers from the first page.
+2025-10-06 21:35:58,515 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:58,563 - global_logger - ERROR - [Reblogger | ID: 6161494016 | Status ID: 115311030999367284] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,563 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115310595235080063] Getting rebloggers from the first page.
+2025-10-06 21:35:58,563 - global_logger - INFO - Thread ID: 6161494016 Finished
+2025-10-06 21:35:58,580 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310727863923663] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,580 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310565889496120] Getting rebloggers from the first page.
+2025-10-06 21:35:58,581 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:58,625 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310228137447367] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,625 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310562341660484] Getting rebloggers from the first page.
+2025-10-06 21:35:58,625 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:58,699 - global_logger - ERROR - [Reblogger | ID: 6161494016 | Status ID: 115310595235080063] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,699 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115310799312052694] Getting rebloggers from the first page.
+2025-10-06 21:35:58,700 - global_logger - INFO - Thread ID: 6161494016 Finished
+2025-10-06 21:35:58,706 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115311143023993996] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,706 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310285517133511] Getting rebloggers from the first page.
+2025-10-06 21:35:58,707 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:58,739 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310565889496120] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,739 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115311145225565806] Getting rebloggers from the first page.
+2025-10-06 21:35:58,745 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:58,775 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310562341660484] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,782 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310807063575821] Getting rebloggers from the first page.
+2025-10-06 21:35:58,788 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:58,889 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310285517133511] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,890 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310554402121238] Getting rebloggers from the first page.
+2025-10-06 21:35:58,890 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:58,927 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115311145225565806] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,927 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310218687400462] Getting rebloggers from the first page.
+2025-10-06 21:35:58,932 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:58,955 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310807063575821] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:58,955 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310963200216402] Getting rebloggers from the first page.
+2025-10-06 21:35:58,955 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:59,060 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310554402121238] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,060 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310227173362144] Getting rebloggers from the first page.
+2025-10-06 21:35:59,061 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:59,122 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310963200216402] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,122 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115311062609162715] Getting rebloggers from the first page.
+2025-10-06 21:35:59,122 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:59,140 - global_logger - ERROR - [Reblogger | ID: 6161494016 | Status ID: 115310799312052694] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,140 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115310780845581142] Getting rebloggers from the first page.
+2025-10-06 21:35:59,147 - global_logger - INFO - Thread ID: 6161494016 Finished
+2025-10-06 21:35:59,211 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310227173362144] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,212 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310815040813516] Getting rebloggers from the first page.
+2025-10-06 21:35:59,212 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:59,247 - global_logger - INFO - [Reblogger | ID: 6195146752 | Status ID: 115309042835338088] Found next page. There are 40 rebloggers
+2025-10-06 21:35:59,247 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310218687400462] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,247 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310899950777295] Getting rebloggers from the first page.
+2025-10-06 21:35:59,247 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:59,266 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115311062609162715] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,266 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310319957386802] Getting rebloggers from the first page.
+2025-10-06 21:35:59,266 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:59,361 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310815040813516] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,361 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115311171701602369] Getting rebloggers from the first page.
+2025-10-06 21:35:59,361 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:59,397 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310319957386802] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,397 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310604002980489] Getting rebloggers from the first page.
+2025-10-06 21:35:59,397 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:59,432 - global_logger - ERROR - [Reblogger | ID: 6161494016 | Status ID: 115310780845581142] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,432 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115310520697903729] Getting rebloggers from the first page.
+2025-10-06 21:35:59,432 - global_logger - INFO - Thread ID: 6161494016 Finished
+2025-10-06 21:35:59,466 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310899950777295] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,467 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115310662543905363] Getting rebloggers from the first page.
+2025-10-06 21:35:59,467 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:59,490 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115311171701602369] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,490 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310211194144422] Getting rebloggers from the first page.
+2025-10-06 21:35:59,490 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:59,523 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310604002980489] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,524 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310925041945593] Getting rebloggers from the first page.
+2025-10-06 21:35:59,524 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:59,544 - global_logger - ERROR - [Reblogger | ID: 6161494016 | Status ID: 115310520697903729] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,544 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115310501348816336] Getting rebloggers from the first page.
+2025-10-06 21:35:59,544 - global_logger - INFO - Thread ID: 6161494016 Finished
+2025-10-06 21:35:59,609 - global_logger - ERROR - [Reblogger | ID: 6178320384 | Status ID: 115310211194144422] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,609 - global_logger - INFO - [Reblogger | ID: 6178320384 | Status ID: 115310966258250190] Getting rebloggers from the first page.
+2025-10-06 21:35:59,610 - global_logger - INFO - Thread ID: 6178320384 Finished
+2025-10-06 21:35:59,637 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310925041945593] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,637 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310596688163385] Getting rebloggers from the first page.
+2025-10-06 21:35:59,637 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:59,673 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115310662543905363] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,673 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115311007654820352] Getting rebloggers from the first page.
+2025-10-06 21:35:59,674 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:59,740 - global_logger - ERROR - [Reblogger | ID: 6161494016 | Status ID: 115310501348816336] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,740 - global_logger - INFO - [Reblogger | ID: 6161494016 | Status ID: 115310194520101053] Getting rebloggers from the first page.
+2025-10-06 21:35:59,741 - global_logger - INFO - Thread ID: 6161494016 Finished
+2025-10-06 21:35:59,751 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310596688163385] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,752 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310809034603908] Getting rebloggers from the first page.
+2025-10-06 21:35:59,752 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:35:59,859 - global_logger - ERROR - [Reblogger | ID: 6211973120 | Status ID: 115311007654820352] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,859 - global_logger - INFO - [Reblogger | ID: 6211973120 | Status ID: 115309407313281286] Getting rebloggers from the first page.
+2025-10-06 21:35:59,859 - global_logger - INFO - Thread ID: 6211973120 Finished
+2025-10-06 21:35:59,893 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310809034603908] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:35:59,894 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310928794300916] Getting rebloggers from the first page.
+2025-10-06 21:35:59,894 - global_logger - INFO - Thread ID: 6228799488 Finished
+2025-10-06 21:36:00,011 - global_logger - ERROR - [Reblogger | ID: 6228799488 | Status ID: 115310928794300916] Endpoint for mstdn.social, does not exist: ('Mastodon API returned error', 404, 'Not Found', 'Endpoint not found.')
+2025-10-06 21:36:00,011 - global_logger - INFO - [Reblogger | ID: 6228799488 | Status ID: 115310975187194029] Getting rebloggers from the first page.
+2025-10-06 21:36:00,011 - global_logger - INFO - Thread ID: 6228799488 Finished
+202

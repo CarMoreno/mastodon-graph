@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 109354406526910584,tferrer,tferrer@journa.host,mastodon.social,115321251688028791,journa.host
 108198494782289631,solarplexus,solarplexus,mastodon.social,115320614235411383,mastodon.social
 109367043969247802,sarahlehmann,sarahlehmann@troet.cafe,mastodon.social,115322054806785823,troet.cafe

@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 109285038776240378,Kalytis,Kalytis@piaille.fr,mastodon.social,115326659573351417,piaille.fr
 108763575345916204,idw_online,idw_online@idw-online.social,mastodon.social,115326966121097950,idw-online.social
 112721446181989191,nichtvermietbar,nichtvermietbar@troet.cafe,mastodon.social,115327343859062255,troet.cafe

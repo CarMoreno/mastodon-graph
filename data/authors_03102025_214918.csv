@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 247449,zarfeblong,zarfeblong@mastodon.gamedev.place,mastodon.social,115311071721094705,mastodon.gamedev.place
 111400936658729301,Ms0148,Ms0148,mastodon.social,115310170037886873,mastodon.social
 114372847899290872,gtronix,gtronix@infosec.exchange,mastodon.social,115311068820352408,infosec.exchange

@@ -1,4 +1,4 @@
-id,username,acct,instance,status_id,server
+id,username,acct,instance,toot_id,server
 713269,hommecarton,hommecarton@mamot.fr,mastodon.social,115326548735084640,mamot.fr
 108281629314709765,exil_inselette,exil_inselette@norden.social,mastodon.social,115326075051345338,norden.social
 108267583283614267,frlan,frlan@social.milchreislieferei.de,mastodon.social,115326546006638107,social.milchreislieferei.de
