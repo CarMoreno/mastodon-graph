@@ -56,7 +56,7 @@ def process_and_save_rebloggers(author_info: tuple) -> str | None:
                 acct=r["acct"],
                 author_id=str(author_id),
                 instance=instance,
-            )
+            ).model_dump()
             for r in raw_rebloggers
         ]
         df_chunk = pl.DataFrame(reblogger_objects)

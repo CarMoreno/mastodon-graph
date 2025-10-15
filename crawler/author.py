@@ -135,7 +135,9 @@ def main() -> None:
         "mamot.fr",
     ]
     authors_df = collect_authors(instances, NUM_THREADS, RESULTS_BY_THREAD).collect()
-    authors_df.write_csv(f"data/authors_{now.strftime('%d%m%Y_%H%M%S')}.csv")
+    authors_df.write_csv(
+        f"data/trend_authors/authors_{now.strftime('%d%m%Y_%H%M%S')}.csv"
+    )
     logger.info("Total number of authors: %d" % len(authors_df))
 
 
@@ -143,7 +145,11 @@ if __name__ == "__main__":
     import polars as pl
 
     authors = pl.concat(
-        [pl.read_csv("data/authors_03*.csv"), pl.read_csv("data/authors_04*.csv")]
+        [
+            pl.read_csv("data/trends_authors/authors_03*.csv"),
+            pl.read_csv("data/trends_authors/authors_04*.csv"),
+            pl.read_csv("data/trends_authors/authors_05*.csv"),
+        ],
     ).unique(maintain_order=True)
     print(len(authors))
     authors.write_csv("data/authors.csv")
